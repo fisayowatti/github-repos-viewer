@@ -1,5 +1,5 @@
 {
-  "name": "github-partial-clone",
+  "name": "github-repos-viewer",
   "version": "0.0.0",
   "scripts": {
     "dev": "yarn run watch:css && vite",
@@ -8,8 +8,12 @@
     "watch:css": "postcss src/styles/tailwind.css -o src/styles/main.css"
   },
   "dependencies": {
+    "@types/react-router-dom": "^5.1.7",
+    "graphql": "^15.5.0",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react-dom": "^17.0.0",
+    "react-router-dom": "^5.2.0",
+    "urql": "^2.0.3"
   },
   "devDependencies": {
     "@types/react": "^17.0.0",
